@@ -149,7 +149,7 @@
 &kp LCTRL         &kp A         &kp S     &kp D     &kp F      &kp G       &kp H         &kp J             &kp K     &kp L      &kp SEMI  &kp ENTER
 &kp LSHIFT        &kp Z         &kp X     &kp C     &kp V      &kp B       &kp B         &kp N             &kp M     &kp COMMA  &kp DOT   &kp FSLH
                   &mo CONFIG_L  &kp LWIN  &kp LALT  &kp SPACE  &mo LEFT_L  &mo RIGHT_L   &kp SPACE         &kp RALT  &kp RWIN
-&out OUT_TOG      &out_bt_nxt                                              &trans        &lt 14 RSHIFT     &trans    &trans
+&out OUT_TOG      &out_bt_nxt                                              &trans        &mo 14            &trans    &trans
 &mo TRACKBALL_L2  &mo SCROLL_L  &none     &none                            &mo SCROLL_L  &mo TRACKBALL_L2  &none     &none
             >;
         };
