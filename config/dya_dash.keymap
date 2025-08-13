@@ -169,12 +169,12 @@
         mac_default_layer {
             display-name = "Mac Default";
             bindings = <
-&trans  &trans  &trans    &trans          &trans  &trans            &trans             &trans  &trans          &trans    &trans  &trans
-&trans  &trans  &trans    &trans          &trans  &trans            &trans             &trans  &trans          &trans    &trans  &trans
-&trans  &trans  &trans    &trans          &trans  &trans            &trans             &trans  &trans          &trans    &trans  &trans
-        &trans  &kp LALT  &mt LCMD LANG2  &trans  &lt LEFT_L LANG2  &lt RIGHT_L LANG1  &trans  &mt RCMD LANG1  &kp RALT
-&trans  &trans                                                      &trans             &trans  &trans          &trans
-&trans  &trans  &trans    &trans                                    &trans             &trans  &trans          &trans
+&trans  &trans  &trans  &trans        &trans              &trans            &trans             &trans               &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans              &trans            &trans             &trans               &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans              &trans            &trans             &trans               &trans  &trans  &trans  &trans
+        &trans  &trans  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &lt LEFT_L SPACE  &lt RIGHT_L SPACE  &mt RIGHT_GUI LANG1  &trans  &trans
+&trans  &trans                                                              &trans             &trans               &trans  &trans
+&trans  &trans  &trans  &trans                                              &trans             &trans               &trans  &trans
             >;
         };
 
