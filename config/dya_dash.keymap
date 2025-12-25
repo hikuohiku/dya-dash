@@ -305,11 +305,41 @@
             >;
         };
 
-        extra1 { status = "reserved"; };
+        extra1 {
+            status = "reserved";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                                  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans
+            >;
+        };
 
-        extra2 { status = "reserved"; };
+        extra2 {
+            status = "reserved";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                                  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans
+            >;
+        };
 
-        extra3 { status = "reserved"; };
+        extra3 {
+            status = "reserved";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                                  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans
+            >;
+        };
 
         function_layer {
             bindings = <
