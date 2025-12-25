@@ -27,6 +27,7 @@
 #define EXT1_L 11
 #define EXT2_L 12
 #define EXT3_L 13
+#define FUNCTION_L 14
 
 &trackball_listener {
     input-processors = <
@@ -172,7 +173,7 @@
 &mt LCTRL ESCAPE  &kp A         &kp S     &kp D     &kp F             &kp G        &kp ENTER          &kp H              &kp J   &kp K   &kp L      &kp SEMI
 &kp LSHIFT        &kp Z         &kp X     &kp C     &kp V             &kp B        &kp DELETE         &mkp LCLK          &kp N   &kp M   &kp COMMA  &kp DOT
                   &mo CONFIG_L  &kp RALT  &kp LALT  &kp LEFT_COMMAND  &lt 5 SPACE  &lt RIGHT_L SPACE  &kp RIGHT_COMMAND  &none   &none
-&out OUT_TOG      &out_bt_nxt                                                      &trans             &mo 14             &trans  &trans
+&out OUT_TOG      &out_bt_nxt                                                      &trans             &mo FUNCTION_L     &trans  &trans
 &mo TRACKBALL_L2  &mo SCROLL_L  &none     &none                                    &mo SCROLL_L       &mo TRACKBALL_L2   &none   &none
             >;
         };
