@@ -168,12 +168,12 @@
             // | touch1  | touch2  | touch3  | touch 4 |                                   | touch1  | touch2  | touch3  | touch 4 |
 
             bindings = <
-&kp TAB           &kp Q         &kp W                &kp E           &kp R             &kp T        &kp Y              &kp U              &kp I   &kp O      &kp P     &kp BACKSLASH
-&mt LCTRL ESCAPE  &kp A         &kp S                &kp D           &kp F             &kp G        &kp H              &kp J              &kp K   &kp L      &kp SEMI  &kp SQT
-&kp LSHIFT        &kp Z         &kp X                &kp C           &kp V             &kp B        &mkp LCLK          &kp N              &kp M   &kp COMMA  &kp DOT   &kp FSLH
-                  &mo CONFIG_L  &mt LCTRL BACKSPACE  &mt LALT ENTER  &kp LEFT_COMMAND  &lt 5 SPACE  &lt RIGHT_L SPACE  &kp RIGHT_COMMAND  &none   &none
-&out OUT_TOG      &out_bt_nxt                                                                       &trans             &mo 14             &trans  &trans
-&mo TRACKBALL_L2  &mo SCROLL_L  &none                &none                                          &mo SCROLL_L       &mo TRACKBALL_L2   &none   &none
+&kp TAB           &kp Q         &kp W     &kp E     &kp R             &kp T        &kp BSPC           &kp Y              &kp U   &kp I   &kp O      &kp P
+&mt LCTRL ESCAPE  &kp A         &kp S     &kp D     &kp F             &kp G        &kp ENTER          &kp H              &kp J   &kp K   &kp L      &kp SEMI
+&kp LSHIFT        &kp Z         &kp X     &kp C     &kp V             &kp B        &kp DELETE         &mkp LCLK          &kp N   &kp M   &kp COMMA  &kp DOT
+                  &mo CONFIG_L  &kp RALT  &kp LALT  &kp LEFT_COMMAND  &lt 5 SPACE  &lt RIGHT_L SPACE  &kp RIGHT_COMMAND  &none   &none
+&out OUT_TOG      &out_bt_nxt                                                      &trans             &mo 14             &trans  &trans
+&mo TRACKBALL_L2  &mo SCROLL_L  &none     &none                                    &mo SCROLL_L       &mo TRACKBALL_L2   &none   &none
             >;
         };
 
@@ -235,24 +235,24 @@
             //           |     |     |          |     |          |                           |     |         |         |     |
 
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6          &kp F7          &kp F8        &kp F9           &kp F10  &kp F11
-&trans      &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &kp F12
-&trans      &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans        &trans           &trans   &trans
-            &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans        &trans
-&trans      &trans                                  &trans          &trans          &trans        &trans
-&trans      &trans  &trans  &trans                  &trans          &trans          &trans        &trans
+&kp GRAVE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LBKT  &kp RBKT   &kp MINUS  &kp EQUAL
+&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp BSLH   &kp SEMI   &kp APOS
+&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp COMMA  &kp DOT    &kp FSLH
+           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans
+&trans     &trans                                  &trans  &trans  &trans    &trans
+&trans     &trans  &trans  &trans                  &trans  &trans  &trans    &trans
             >;
         };
 
         right_layer {
             display-name = "Right SPACE";
             bindings = <
-&kp GRAVE      &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp MINUS
-&kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp LS(MINUS)
-&trans         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-               &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-&trans         &trans                                                      &trans      &trans      &trans      &trans
-&trans         &trans      &trans      &trans                              &none       &none       &trans      &trans
+&kp GRAVE  &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &trans  &kp N6     &kp N7         &kp N8        &kp N9                &kp N0
+&trans     &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans     &trans      &trans      &trans      &trans      &trans      &trans  &trans     &trans         &trans        &trans                &trans
+           &trans      &trans      &trans      &trans      &trans      &trans  &trans     &trans         &trans
+&trans     &trans                                                      &trans  &trans     &trans         &trans
+&trans     &trans      &trans      &trans                              &none   &none      &trans         &trans
             >;
         };
 
