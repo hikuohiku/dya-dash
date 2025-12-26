@@ -159,7 +159,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ALT
+  - {t: ▽, type: trans}
   - {t: LANG2, h: LEFT GUI}
   - {t: SPACE, h: Left SPACE}
   - {t: SPACE, h: Right SPACE}
