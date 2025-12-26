@@ -31,15 +31,15 @@ layers:
   - C
   - V
   - B
-  - DELETE
-  - '&mkp LCLK'
+  - LALT
+  - RIGHT ALT
   - N
   - M
   - ','
   - .
   - Config Layer
-  - RALT
-  - LALT
+  - '&mkp RCLK'
+  - '&mkp LCLK'
   - LEFT COMMAND
   - {t: SPACE, h: Left SPACE}
   - {t: SPACE, h: Right SPACE}
@@ -507,8 +507,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
