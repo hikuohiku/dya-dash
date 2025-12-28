@@ -40,10 +40,10 @@ layers:
   - Config Layer
   - '&mkp RCLK'
   - '&mkp LCLK'
-  - LEFT COMMAND
+  - {t: LANG2, h: LEFT COMMAND}
   - {t: SPACE, h: Left SPACE}
   - {t: SPACE, h: Right SPACE}
-  - RIGHT COMMAND
+  - {t: LANG1, h: RIGHT COMMAND}
   - ''
   - ''
   - OUT TOG
